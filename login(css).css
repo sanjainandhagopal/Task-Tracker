@@ -1,0 +1,102 @@
+body
+{
+	min-height:98vh;
+	width:90%;
+	background-image:url(Images/campus.jpg);
+	background-position:center;
+	background-size:cover;
+	position:relative;
+}
+
+.login h1
+{
+	text-align: center;
+	
+}
+
+.login
+{
+	font-family: "Roboto", sans-serif;
+	width:320px;
+	height:400px;
+	background:#FFFFFF;
+	top:50%;
+	left:55%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	padding:50px 50px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	border-radius: 10px;
+}
+.avatar1
+{
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+	position:absolute;
+	top:-50px;
+	left:calc(50% - 50px);
+}
+
+label, h1
+{
+	font-size: 15px;
+}
+
+form input[type=text],input[type=password]
+{
+	outline: 0;
+	border-radius: 10px;
+	background: #F2F2F2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+form input[type=checkbox]
+{
+	cursor: pointer;
+}
+
+form input[type=text]:hover
+{
+	background-color: #D3F8F9;
+	transition: all 1s ease 0s;
+}
+
+form input[type=text]:focus
+{
+	background-color: #D3F8F9;
+	transition: all 1s ease 0s;
+}
+
+form a
+{
+	text-decoration: none;
+	position: relative;
+	top: 10px;
+}
+
+form button
+{
+	text-transform: uppercase;
+	outline: 0;
+	border-radius: 10px;
+	background: #1ADBE5;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+form button:hover, form button:active, form button:focus
+{
+	background-color: #06C5CF;
+	transition: all 1s ease 0s;
+}

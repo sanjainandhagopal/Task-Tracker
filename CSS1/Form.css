@@ -1,0 +1,128 @@
+body
+{
+	padding: 0;
+	margin: 0;
+	background-image: url(../Images/campus.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+form
+{
+	font-family: "Roboto", sans-serif;
+	position: relative;
+	z-index: 1;
+	background: #FFFFFF;
+	opacity: 99%;
+	top: 100px;
+	left: 550px;
+	max-width: 400px;
+	padding: 10px 45px 30px 45px;
+	text-align: left;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	border-radius: 10px;
+}
+
+label
+{
+	font-size: 15px;
+}
+
+form input[type=text],input[type=password],input[type=date]
+{
+	outline: 0;
+	border-radius: 10px;
+	background: #F2F2F2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+form input[type=checkbox],input[type=date]
+{
+	cursor: pointer;
+}
+
+form select
+{
+	outline: 0;
+	border-radius: 10px;
+	background: #F2F2F2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+form select:hover
+{
+	background-color: #D3F8F9;
+	transition: all 1s ease 0s;
+}
+
+form input[type=text]:hover,input[type=password]:hover,input[type=date]:hover
+{
+	background-color: #D3F8F9;
+	transition: all 1s ease 0s;
+}
+
+form input[type=text]:focus,input[type=password]:focus,input[type=date]:focus
+{
+	background-color: #D3F8F9;
+	transition: all 1s ease 0s;
+}
+
+form input[type=text]:focus,input[type=password]:focus,input[type=date]:focus
+{
+	background-color: #D3F8F9;
+	transition: all 1s ease 0s;
+}
+
+form button
+{
+	text-transform: uppercase;
+	outline: 0;
+	border-radius: 10px;
+	background: #1ADBE5;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.Back
+{
+	text-transform: uppercase;
+	outline: 0;
+	border-radius: 10px;
+	background: #f20707;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 100px;
+	
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.Back:hover
+{
+	background-color: #830c0c;
+}
+
+form button:hover, form button:active, form button:focus
+{
+	background-color: #06C5CF;
+	transition: all 1s ease 0s;
+}

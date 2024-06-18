@@ -1,0 +1,36 @@
+.re
+{
+	background-color: blue;
+}
+
+.comp
+{
+	background-color: blue;
+}
+
+.undo
+{
+	background-color: red;
+}
+
+.ed
+{
+	background-color: blue;
+}
+
+.del
+{
+	background-color: red;
+}
+
+tbody button
+{
+	border-radius: 5px;
+	width: 5.5em;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+}
